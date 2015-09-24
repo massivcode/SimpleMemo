@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <android.support.design.widget.FloatingActionButton   xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fab_add_memo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_content_add_circle"
+        android:scaleType="center"
+        app:fabSize="mini"
+        app:backgroundTint="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <ListView
+        android:id="@+id/list_view_all_memo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

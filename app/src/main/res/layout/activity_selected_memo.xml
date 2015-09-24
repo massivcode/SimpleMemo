@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view_title"
+            android:hint="제목 없음"
+            android:ellipsize="marquee"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:background="@null"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_view_contents"
+        android:hint="내용 없음"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:gravity="left"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    </ScrollView>
+</LinearLayout>
